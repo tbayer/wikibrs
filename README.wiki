@@ -1,6 +1,6 @@
 A tiny Python script to convert a plaintext file into a MediaWiki wiki page (as wikitext), avoiding the issue that subsequent lines blend into one because MediaWiki treats newlines differently.
 
-Basically, it adds "<code><<nowiki />br /></code>" tags to the end of every line of the input file, except those where MediaWiki will keep the line break anyway when parsing it as wikitext (e.g. after a line that starts with "*").
+Basically, it adds "<code><br /></code>" tags to the end of every line of the input file, except those where MediaWiki will keep the line break anyway when parsing it as wikitext (e.g. after a line that starts with "*").
 
 I use it to publish notes taken on an Etherpad (exported from Etherpad as plaintext file) on Meta-wiki.
 
